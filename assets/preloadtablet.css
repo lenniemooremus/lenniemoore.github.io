@@ -1,0 +1,23 @@
+@-webkit-keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+@-moz-keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+@font-face{font-family:'DaveGibbonsRegular';src:url('webfonts/DaveGibbonsRegular.eot');src:url('webfonts/DaveGibbonsRegular.eot?#iefix') format('embedded-opentype'),url('webfonts/DaveGibbonsRegular.woff') format('woff'),url('webfonts/DaveGibbonsRegular.ttf') format('truetype'),url('webfonts/DaveGibbonsRegular.svg#wf') format('svg');}
+@font-face{font-family:'DaveGibbonsJournalRegular';src:url('webfonts/DaveGibbonsJournalRegular.eot');src:url('webfonts/DaveGibbonsJournalRegular.eot?#iefix') format('embedded-opentype'),url('webfonts/DaveGibbonsJournalRegular.woff') format('woff'),url('webfonts/DaveGibbonsJournalRegular.ttf') format('truetype'),url('webfonts/DaveGibbonsJournalRegular.svg#wf') format('svg');}
+@font-face{font-family:'RockSaltRegular';src:url('webfonts/RockSalt-webfont.eot');src:url('webfonts/RockSalt-webfont.eot?#iefix') format('embedded-opentype'),url('webfonts/RockSalt-webfont.woff') format('woff'),url('webfonts/RockSalt-webfont.ttf') format('truetype'),url('webfonts/RockSalt-webfont.svg#RockSaltRegular') format('svg');font-weight: normal;font-style: normal;}
+html{background-color:#ffd;width:1024px;}
+body{font:100% DaveGibbonsJournalRegular,DroidSans,Arial,sans-serif;font-size:100%;line-height:1.4;margin:0;padding:0;color:#06c;font-family:DaveGibbonsJournalRegular,DroidSans,Arial,sans-serif;}
+.container{width:960px;margin:0 auto;}
+.fade-in{opacity:1;}
+.header{width:960px;background:transparent;text-align:center;margin:10px, auto;overflow:hidden;}
+.header_title{font-family:RockSaltRegular,DroidSans,Arial,sans-serif;font-size:300%;font-style:normal;color:#900;text-shadow:-1px 1px 0px rgba(0,0,0,1),-1px 1px 1px rgba(64,64,55,0.8);}
+.header_subtitle{font-family:DaveGibbonsRegular,DroidSans,Arial,sans-serif;font-size:100%;font-style:normal;color:#06c;text-shadow:-1px 1px 0px rgba(0,0,0,1),-1px 1px 1px rgba(64,64,55,0.6);margin-left:20px;}
+.substance{width:960px;float:left;}
+.section{margin-top:0;margin-right:5px;margin-bottom:0;margin-left:0;}
+#preloader{border:2px solid;border-radius:13px;box-shadow:-3px 3px 2px rgba(64,64,55,0.4);border-color:#900;width:864px;height:585px;margin:0 auto;background:#ffd;overflow:hidden;}
+#flashloader{width:846px;height:635px;padding:0 5px;overflow:hidden;}
+.center{margin:0 auto;display:block;}
+a,a.link,a.glow,a.glow:link,.item.a.glow:link,a.visited,a.glow:visited,.item.a.glow:visited,a.hover,a.glow:hover,.item.a.hover,.item.a.glow:hover,a.focus,a.glow:focus,.item.a.focus,.item.a.glow:focus{color:#06c;text-shadow:none;}
+a.hover,a.focus{color:#900;text-shadow:none;}
+a.glow:hover,a.glow:focus,.item.a.glow:hover,.item.a.glow:focus{color:#900;text-shadow:-1px 1px 0px #fff,0px 0px 10px #06c,-2px 2px 10px #fff;}
+a.glow,a.hover,a.glow:hover,a.focus,a.glow:focus,.item.a.hover,.item.a.glow:hover,.item.a.focus,.item.a.glow:focus{ text-decoration:underline;-webkit-transition:0.25s linear 0s;-moz-transition:0.25s linear 0s;-o-transition:0.25s linear 0s;transition:0.25s linear 0s;outline:0 none;}
+footer{padding-top:10px;padding-right:0;padding-bottom:0;padding-left:0;position:relative;clear:both;font-family:DaveGibbonsJournalRegular,DroidSans,Arial,sans-serif;font-style:normal;text-align:center;}

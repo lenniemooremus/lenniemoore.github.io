@@ -1,0 +1,5 @@
+@import url("desktop.css");
+  /* rules for iPad in landscape orientation */
+@import url("tablet.css") only screen and (device-width: 768px) and (orientation: landscape);
+  /* iPhone, Android rules here */
+@import url("phone.css") only screen and (min-device-width: 320px) and (max-device-width: 480px);

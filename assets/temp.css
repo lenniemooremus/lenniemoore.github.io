@@ -1,0 +1,390 @@
+@font-face 
+{
+	font-family: 'DGBellyLaughRegular';
+	src: url('webfonts/DGBellyLaughRegular.eot');
+	src: url('webfonts/DGBellyLaughRegular.eot?#iefix') format('embedded-opentype'),
+		 url('webfonts/DGBellyLaughRegular.woff') format('woff'),
+		 url('webfonts/DGBellyLaughRegular.ttf') format('truetype'),
+		 url('webfonts/DGBellyLaughRegular.svg#wf') format('svg');
+}
+ 
+@font-face {
+	  font-family: 'DGBellyLaughOutline';
+	  src: url('webfonts/DGBellyLaughOutline.eot');
+	  src: url('webfonts/DGBellyLaughOutline.eot?#iefix') format('embedded-opentype'),
+	  	   url('webfonts/DGBellyLaughOutline.woff') format('woff'),
+		   url('webfonts/DGBellyLaughOutline.ttf') format('truetype'),
+		   url('webfonts/DGBellyLaughOutline.svg#wf') format('svg');
+		   }
+
+@font-face {
+    font-family: 'pulsesansvirginRegular';
+    src: url('webfonts/pulse_virgin-webfont.eot');
+    src: url('webfonts/pulse_virgin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/pulse_virgin-webfont.woff') format('woff'),
+         url('webfonts/pulse_virgin-webfont.ttf') format('truetype'),
+         url('webfonts/pulse_virgin-webfont.svg#pulsesansvirginRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KomikaTextRegular';
+    src: url('webfonts/KOMTXT__-webfont.eot');
+    src: url('webfonts/KOMTXT__-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/KOMTXT__-webfont.woff') format('woff'),
+         url('webfonts/KOMTXT__-webfont.ttf') format('truetype'),
+         url('webfonts/KOMTXT__-webfont.svg#KomikaTextRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KomikaTextItalic';
+    src: url('webfonts/KOMTXTI_-webfont.eot');
+    src: url('webfonts/KOMTXTI_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/KOMTXTI_-webfont.woff') format('woff'),
+         url('webfonts/KOMTXTI_-webfont.ttf') format('truetype'),
+         url('webfonts/KOMTXTI_-webfont.svg#KomikaTextItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KomikaTextBold';
+    src: url('webfonts/KOMTXTB_-webfont.eot');
+    src: url('webfonts/KOMTXTB_-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/KOMTXTB_-webfont.woff') format('woff'),
+         url('webfonts/KOMTXTB_-webfont.ttf') format('truetype'),
+         url('webfonts/KOMTXTB_-webfont.svg#KomikaTextBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KomikaTextBoldItalic';
+    src: url('webfonts/KOMTXTBI-webfont.eot');
+    src: url('webfonts/KOMTXTBI-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/KOMTXTBI-webfont.woff') format('woff'),
+         url('webfonts/KOMTXTBI-webfont.ttf') format('truetype'),
+         url('webfonts/KOMTXTBI-webfont.svg#KomikaTextBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KomikaHandBold';
+    src: url('webfonts/Komika_Hand_Bold-webfont.eot');
+    src: url('webfonts/Komika_Hand_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Komika_Hand_Bold-webfont.woff') format('woff'),
+         url('webfonts/Komika_Hand_Bold-webfont.ttf') format('truetype'),
+         url('webfonts/Komika_Hand_Bold-webfont.svg#KomikaHandBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'KomikaHandBoldItalic';
+    src: url('webfonts/Komika_Hand_Bold_Italic-webfont.eot');
+    src: url('webfonts/Komika_Hand_Bold_Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Komika_Hand_Bold_Italic-webfont.woff') format('woff'),
+         url('webfonts/Komika_Hand_Bold_Italic-webfont.ttf') format('truetype'),
+         url('webfonts/Komika_Hand_Bold_Italic-webfont.svg#KomikaHandBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PermanentMarkerRegular';
+    src: url('webfonts/PermanentMarker-webfont.eot');
+    src: url('webfonts/PermanentMarker-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/PermanentMarker-webfont.woff') format('woff'),
+         url('webfonts/PermanentMarker-webfont.ttf') format('truetype'),
+         url('webfonts/PermanentMarker-webfont.svg#PermanentMarkerRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CantarellRegular';
+    src: url('webfonts/Cantarell-Regular-webfont.eot');
+    src: url('webfonts/Cantarell-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Cantarell-Regular-webfont.woff') format('woff'),
+         url('webfonts/Cantarell-Regular-webfont.ttf') format('truetype'),
+         url('webfonts/Cantarell-Regular-webfont.svg#CantarellRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CantarellOblique';
+    src: url('webfonts/Cantarell-Oblique-webfont.eot');
+    src: url('webfonts/Cantarell-Oblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Cantarell-Oblique-webfont.woff') format('woff'),
+         url('webfonts/Cantarell-Oblique-webfont.ttf') format('truetype'),
+         url('webfonts/Cantarell-Oblique-webfont.svg#CantarellOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CantarellBold';
+    src: url('webfonts/Cantarell-Bold-webfont.eot');
+    src: url('webfonts/Cantarell-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Cantarell-Bold-webfont.woff') format('woff'),
+         url('webfonts/Cantarell-Bold-webfont.ttf') format('truetype'),
+         url('webfonts/Cantarell-Bold-webfont.svg#CantarellBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CantarellBoldOblique';
+    src: url('webfonts/Cantarell-BoldOblique-webfont.eot');
+    src: url('webfonts/Cantarell-BoldOblique-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Cantarell-BoldOblique-webfont.woff') format('woff'),
+         url('webfonts/Cantarell-BoldOblique-webfont.ttf') format('truetype'),
+         url('webfonts/Cantarell-BoldOblique-webfont.svg#CantarellBoldOblique') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoRegular';
+    src: url('webfonts/Roboto-Regular-webfont.eot');
+    src: url('webfonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('webfonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-Regular-webfont.svg#RobotoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoItalic';
+    src: url('webfonts/Roboto-Italic-webfont.eot');
+    src: url('webfonts/Roboto-Italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-Italic-webfont.woff') format('woff'),
+         url('webfonts/Roboto-Italic-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-Italic-webfont.svg#RobotoItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBold';
+    src: url('webfonts/Roboto-Bold-webfont.eot');
+    src: url('webfonts/Roboto-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-Bold-webfont.woff') format('woff'),
+         url('webfonts/Roboto-Bold-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-Bold-webfont.svg#RobotoBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBoldItalic';
+    src: url('webfonts/Roboto-BoldItalic-webfont.eot');
+    src: url('webfonts/Roboto-BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-BoldItalic-webfont.woff') format('woff'),
+         url('webfonts/Roboto-BoldItalic-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-BoldItalic-webfont.svg#RobotoBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoCondensed';
+    src: url('webfonts/Roboto-Condensed-webfont.eot');
+    src: url('webfonts/Roboto-Condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-Condensed-webfont.woff') format('woff'),
+         url('webfonts/Roboto-Condensed-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-Condensed-webfont.svg#RobotoCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoCondensedItalic';
+    src: url('webfonts/Roboto-CondensedItalic-webfont.eot');
+    src: url('webfonts/Roboto-CondensedItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-CondensedItalic-webfont.woff') format('woff'),
+         url('webfonts/Roboto-CondensedItalic-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-CondensedItalic-webfont.svg#RobotoCondensedItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBoldCondensed';
+    src: url('webfonts/Roboto-BoldCondensed-webfont.eot');
+    src: url('webfonts/Roboto-BoldCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-BoldCondensed-webfont.woff') format('woff'),
+         url('webfonts/Roboto-BoldCondensed-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-BoldCondensed-webfont.svg#RobotoBoldCondensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoBoldCondensedItalic';
+    src: url('webfonts/Roboto-BoldCondensedItalic-webfont.eot');
+    src: url('webfonts/Roboto-BoldCondensedItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-BoldCondensedItalic-webfont.woff') format('woff'),
+         url('webfonts/Roboto-BoldCondensedItalic-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-BoldCondensedItalic-webfont.svg#RobotoBoldCondensedItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoLight';
+    src: url('webfonts/Roboto-Light-webfont.eot');
+    src: url('webfonts/Roboto-Light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-Light-webfont.woff') format('woff'),
+         url('webfonts/Roboto-Light-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-Light-webfont.svg#RobotoLight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoLightItalic';
+    src: url('webfonts/Roboto-LightItalic-webfont.eot');
+    src: url('webfonts/Roboto-LightItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-LightItalic-webfont.woff') format('woff'),
+         url('webfonts/Roboto-LightItalic-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-LightItalic-webfont.svg#RobotoLightItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoMedium';
+    src: url('webfonts/Roboto-Medium-webfont.eot');
+    src: url('webfonts/Roboto-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-Medium-webfont.woff') format('woff'),
+         url('webfonts/Roboto-Medium-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-Medium-webfont.svg#RobotoMedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RobotoMediumItalic';
+    src: url('webfonts/Roboto-MediumItalic-webfont.eot');
+    src: url('webfonts/Roboto-MediumItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Roboto-MediumItalic-webfont.woff') format('woff'),
+         url('webfonts/Roboto-MediumItalic-webfont.ttf') format('truetype'),
+         url('webfonts/Roboto-MediumItalic-webfont.svg#RobotoMediumItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'EntypoRegular';
+    src: url('webfonts/Entypo-webfont.eot');
+    src: url('webfonts/Entypo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/Entypo-webfont.woff') format('woff'),
+         url('webfonts/Entypo-webfont.ttf') format('truetype'),
+         url('webfonts/Entypo-webfont.svg#EntypoRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ModernPictogramsNormal';
+    src: url('webfonts/modernpics-webfont.eot');
+    src: url('webfonts/modernpics-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/modernpics-webfont.woff') format('woff'),
+         url('webfonts/modernpics-webfont.ttf') format('truetype'),
+         url('webfonts/modernpics-webfont.svg#ModernPictogramsNormal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WCRhesusABtaRegular';
+    src: url('webfonts/WC_Rhesus_A_Bta-webfont.eot');
+    src: url('webfonts/WC_Rhesus_A_Bta-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/WC_Rhesus_A_Bta-webfont.woff') format('woff'),
+         url('webfonts/WC_Rhesus_A_Bta-webfont.ttf') format('truetype'),
+         url('webfonts/WC_Rhesus_A_Bta-webfont.svg#WCRhesusABtaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WCRhesusBBtaItalic';
+    src: url('webfonts/WC_Rhesus_B_Bta-webfont.eot');
+    src: url('webfonts/WC_Rhesus_B_Bta-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/WC_Rhesus_B_Bta-webfont.woff') format('woff'),
+         url('webfonts/WC_Rhesus_B_Bta-webfont.ttf') format('truetype'),
+         url('webfonts/WC_Rhesus_B_Bta-webfont.svg#WCRhesusBBtaItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'WebSymbolsRegular';
+    src: url('webfonts/WebSymbols-Regular-webfont.eot');
+    src: url('webfonts/WebSymbols-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/WebSymbols-Regular-webfont.woff') format('woff'),
+         url('webfonts/WebSymbols-Regular-webfont.ttf') format('truetype'),
+         url('webfonts/WebSymbols-Regular-webfont.svg#WebSymbolsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DroidSansRegular';
+    src: url('webfonts/DroidSans-webfont.eot');
+    src: url('webfonts/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/DroidSans-webfont.woff') format('woff'),
+         url('webfonts/DroidSans-webfont.ttf') format('truetype'),
+         url('webfonts/DroidSans-webfont.svg#DroidSansRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DroidSansBold';
+    src: url('webfonts/DroidSans-Bold-webfont.eot');
+    src: url('webfonts/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('webfonts/DroidSans-Bold-webfont.woff') format('woff'),
+         url('webfonts/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('webfonts/DroidSans-Bold-webfont.svg#DroidSansBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+a:link {
+	color: #06c;
+	text-decoration:none;
+	/* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+}
+a:visited {
+	color: #06c;
+	text-decoration: none;
+}
+a:hover, a:active, a:focus { /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+	color: #900;
+	text-decoration: none;
+}
+
+section {
+	border:2px solid;
+	border-color: #06c;
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	-moz-box-shadow: -3px 3px 4px rgba(0,0,0,0.5);
+	-webkit-box-shadow: -3px 3px 4px rgba(0,0,0,0.5);
+	box-shadow: -3px 3px 4px rgba(0,0,0,0.5);
+	padding-top: 10px;
+	padding-right: 45px;
+	padding-bottom: 10px;
+	padding-left: 45px;
+}
